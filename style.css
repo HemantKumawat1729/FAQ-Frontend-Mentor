@@ -1,0 +1,90 @@
+@font-face {
+    font-family: bold;
+    src: url(assets/fonts/static/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: semi-bold;
+    src: url(assets/fonts/static/WorkSans-SemiBold.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(275, 100%, 97%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+h1{
+    display: inline;
+    font-family: bold;
+}
+#bkg-img{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+    /* height: 60%; */
+    padding: 2vw;
+    margin: auto auto;
+    position: relative;
+}
+.heading{
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+#star{
+    width: 7%;
+    display: inline;
+    padding-right:5%;
+}
+.q{
+    font-family: semi-bold;
+    color:black;
+    display: flex;
+    height: 10%;
+    /* border:2px solid red; */
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% 0;
+    cursor: pointer;
+}
+.ans{
+    color:black;
+    opacity: 70%;
+    display: none;
+}
+
+#line{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    opacity: 10%;
+    border-radius: 10px;
+    margin-top:10px;
+}
+.attribution { 
+    font-size: 15px; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.attribution a { 
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+
+}
+#minus{
+    display: none;
+}
